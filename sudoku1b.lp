@@ -13,4 +13,5 @@ subgrid(X, Y, 1) :- X = 1..2, Y = 1..2.
 subgrid(X, Y, 2) :- X = 1..2, Y = 3..4.
 subgrid(X, Y, 3) :- X = 3..4, Y = 1..2.
 subgrid(X, Y, 4) :- X = 3..4, Y = 3..4.
+#show sudoku/3.
 #show subgrid/3.
