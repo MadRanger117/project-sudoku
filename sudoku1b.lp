@@ -10,7 +10,7 @@
 :- sudoku(X1, Y, N), sudoku(X2, Y, N), X1 != X2.
 sudoku(X, Y, N) :- initial(X, Y, N).
 subgrid(X, Y, 1) :- X = 1..2, Y = 1..2.
-subgrid(X, Y, 2) :- X = 3..4, Y = 1..2.
-subgrid(X, Y, 3) :- X = 1..2, Y = 3..4.
+subgrid(X, Y, 3) :- X = 3..4, Y = 1..2.
+subgrid(X, Y, 2) :- X = 1..2, Y = 3..4.
 subgrid(X, Y, 4) :- X = 3..4, Y = 3..4.
 #show subgrid/3.
